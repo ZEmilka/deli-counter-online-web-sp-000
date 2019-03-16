@@ -5,6 +5,6 @@ def line(katz_deli)
     return "The line is currenty empty."
   else
     katz_deli.each do |name|
-      new_array << ("{#name}")
+      new_array << ("{#name +=1}")
     end
 end
