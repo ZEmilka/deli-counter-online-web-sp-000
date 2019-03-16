@@ -6,5 +6,5 @@ def line(katz_deli)
   else
     katz_deli.each do |name|
       new_array << ("{#name +=1}")
-    end
+  end
 end
